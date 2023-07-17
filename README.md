@@ -46,7 +46,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 7. Enable Common HTTP Features. Go to Internet Information Services > World Wide Web Services > Common HTTP Features. Check the boxes on all features under this folder.
 
-8. 
+8. Select "OK".
+
+9. Windows will install/enable IIS. Once that finishes, select close. You can also close out the control panel window.
+
+10. Open up a new tab in any web browser. In the address bar, type in "127.0.0.1". It should display a Windows Information Services webpage. If that page doesn't display, try uninstalling and then reinstalling IIS. You can do this by going back to the control panel > programs > Turn windows features on or off > Internet Information Services. Uncheck this box and select ok. Then re-check the box and select ok. Try connecting to the webpage again.
+
+11. 
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
