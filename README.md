@@ -36,7 +36,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 2. On the windows search bar, type control panel and click on the control panel application
 
-3. 
+3. Go to "programs"
+
+4. Select "Turn Windows Features On or Off"
+
+5. Find folder Internet Information Servives. Check the box and then expand the folder.
+
+6. Enable CGI services. Go to Internet Information Services > World Wide Web Services > Application Developement Features > CGI. 
+
+7. Go to Internet Information Services -> World Wide Web Services ->
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
