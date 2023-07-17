@@ -44,7 +44,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 6. Enable CGI services. Go to Internet Information Services > World Wide Web Services > Application Developement Features > CGI. 
 
-7. Go to Internet Information Services -> World Wide Web Services ->
+7. Enable Common HTTP Features. Go to Internet Information Services > World Wide Web Services > Common HTTP Features. Check the boxes on all features under this folder.
+
+8. 
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
