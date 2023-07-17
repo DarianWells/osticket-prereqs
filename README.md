@@ -50,9 +50,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 9. Windows will install/enable IIS. Once that finishes, select close. You can also close out the control panel window.
 
-10. Open up a new tab in any web browser. In the address bar, type in "127.0.0.1". It should display a Windows Information Services webpage. If that page doesn't display, try uninstalling and then reinstalling IIS. You can do this by going back to the control panel > programs > Turn windows features on or off > Internet Information Services. Uncheck this box and select ok. Then re-check the box and select ok. Try connecting to the webpage again.
+10. Open up a new tab in any web browser. In the address bar, type in "127.0.0.1". It should display a Windows Information Services webpage. This confirms that IIS was successfully installed. If that page doesn't display, try uninstalling and then reinstalling IIS. You can do this by going back to the control panel > programs > Turn windows features on or off > Internet Information Services. Uncheck this box and select ok. Then re-check the box and select ok. Try connecting to the webpage again.
 
-11. 
+11. Download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+
+12. 
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
