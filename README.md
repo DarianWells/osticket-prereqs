@@ -55,6 +55,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 11. Download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi) https://www.iis.net/downloads/community/2018/05/php-manager-150-for-iis-10
 
 12. Download and install URL Rewrite Module (rewrite_amd64_en-US.msi) https://www.iis.net/downloads/microsoft/url-rewrite
+
+13. Open the file explorer. In the search bar, type "C:" and press enter. On the C: drive, create a folder named "PHP"
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
