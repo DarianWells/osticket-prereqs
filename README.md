@@ -56,7 +56,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 12. Download and install URL Rewrite Module (rewrite_amd64_en-US.msi) https://www.iis.net/downloads/microsoft/url-rewrite
 
-13. Open the file explorer. In the search bar, type "C:" and press enter. On the C: drive, create a folder named "PHP"
+13. Open the file explorer. In the search bar, type "C:" and press enter. On the C: drive, create a folder named "PHP".
+
+14. 
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
