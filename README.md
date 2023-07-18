@@ -58,7 +58,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 13. Open the file explorer. In the search bar, type "C:" and press enter. On the C: drive, create a folder named "PHP".
 
-14. 
+14. Download PHP 8.2.8 (the non thread safe zip file) https://windows.php.net/download/ . Extract all Contents into the PHP folder that was created on the C: drive.
+
+15. Install Microsoft Visual Redistributable VC_redist.x86.exe https://www.microsoft.com/en-us/download/details.aspx?id=48145
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
