@@ -61,6 +61,22 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 14. Download PHP 8.2.8 (the non thread safe zip file) https://windows.php.net/download/ . Extract all Contents into the PHP folder that was created on the C: drive.
 
 15. Install Microsoft Visual Redistributable VC_redist.x86.exe https://www.microsoft.com/en-us/download/details.aspx?id=48145
+
+16. 16. Download and install MySQL 5.5.62. You can find an archived version linked here: https://downloads.mysql.com/archives/community/
+    -Typical Setup
+    - Launch Configuration Wizard (after setup)
+    - Standard Configuration
+    - Enter in Password1 for the password
+    - Click "execute"
+17. Now search IIS in the windows search bar and right click and select "run as administrator"
+
+18. Click on "PHP Manager"
+
+19. Select Register new PHP version
+
+20. Browse files to C:/PHP and select the php-cgi file that is located within that folder.
+
+21. Now the PHP manager should display the version of PHP installed
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
