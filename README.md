@@ -77,6 +77,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 20. Browse files to C:/PHP and select the php-cgi file that is located within that folder.
 
 21. Now the PHP manager should display the version of PHP installed
+
+22. In IIS, clcick on the home icon in the top right corner. Reload the servers by clicking "stop" and then "start"
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
