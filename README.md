@@ -94,7 +94,20 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 29. It should display a webpage with the osTicket installer.
 
-30. 
+30. If you notice on the osTicket webpage, not all extensions are enable. Now we will make changes in order to enable all extensions for osTicket.
+
+31. Go back to IIS, sites -> Default -> osTicket
+
+32. Double-click PHP Manager
+
+33. Click “Enable or disable an extension”
+    - Enable: php_imap.dll
+    - Enable: php_intl.dll
+    - Enable: php_opcache.dll
+
+34. Refresh the osTicket site in your browse, observe the changes
+
+
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
