@@ -79,6 +79,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 21. Now the PHP manager should display the version of PHP installed
 
 22. In IIS, clcick on the home icon in the top right corner. Reload the servers by clicking "stop" and then "start"
+
+23. Next, download osTicket from the installation files folder.
+
+24. Extract the zip file and copy the "upload" folder to c:\inetpub\wwwroot
+
+25. 
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
