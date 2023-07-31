@@ -84,7 +84,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 24. Extract the zip file and copy the "upload" folder to c:\inetpub\wwwroot
 
-25. 
+25. Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+
+26. Reload IIS again by stopping and restarting the server.
+
+27. In IIS, on the left side, browse to sites -> default -> osTicket
+
+28. On the right side, click browse .80
+
+29. It should display a webpage with the osTicket installer.
+
+30. 
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
