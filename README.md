@@ -125,6 +125,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
    - Select "Apply" then select "OK" to close the Advanced Security window.
    - Select "OK" to close the ost-config.php Properties window.
 
+39. Go back to the osTicket browser page
+    - Click "Continue"
+    - Helpdesk Name is (Your Name) Help Desk
+    - Defaul email (receives email from customers)
+    - Fill out the rest of the information to create the admin user account. Make sure you remember the username and password
+    - Before continuing, Heidi SQL must be installed in order to fill out the Database Settings information
+
+40. 
+
 
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
