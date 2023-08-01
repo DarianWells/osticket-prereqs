@@ -107,6 +107,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 34. Refresh the osTicket site in your browse, observe the changes
 
+35. Browse to C:-> inetpub-> wwwroot -> osTicket -> include -> "ost-sampleconfig.php"
+
+36. Rename "ost-sampleconfig.php" to "ost-config.php"
+
+37. Right click on that same file and select "Properties"
+        - Go to the "Security" tab
+        - Click "Advanced"
+        - Click "Disable inheritance"
+        - Select "Remove all inherited permissions from this object."
+
 
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
