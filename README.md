@@ -112,10 +112,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 36. Rename "ost-sampleconfig.php" to "ost-config.php"
 
 37. Right click on that same file and select "Properties"
-        - Go to the "Security" tab
-        - Click "Advanced"
-        - Click "Disable inheritance"
-        - Select "Remove all inherited permissions from this object."
+   - Go to the "Security" tab
+   - Click "Advanced"
+   - Click "Disable inheritance"
+   - Select "Remove all inherited permissions from this object."
+   - Click "Add"
+   - Click "Select a principal"
+38. Type "everyone" in the text box then click "Check Names"
+   - Select "OK"
+   - Enable "Full Control" and select "OK"
 
 
   
