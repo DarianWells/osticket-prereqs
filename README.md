@@ -118,9 +118,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
    - Select "Remove all inherited permissions from this object."
    - Click "Add"
    - Click "Select a principal"
+
 38. Type "everyone" in the text box then click "Check Names"
    - Select "OK"
-   - Enable "Full Control" and select "OK"
+   - Enable "Full Control" and select "OK", the window will close.
+   - Select "Apply" then select "OK" to close the Advanced Security window.
+   - Select "OK" to close the ost-config.php Properties window.
 
 
   
