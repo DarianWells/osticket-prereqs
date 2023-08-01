@@ -150,6 +150,21 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     - User: root
     - Password: Password1
     - Click "Install Now"
+
+44. osTicket has been successfully installed!
+
+45. For final cleanup,
+    - delete the "setup" folder located at C:\inetpub\wwwroot\osTicket\setup
+    - Reset the permissions for ost-config.php to read-only
+      - go to C:\inetpub\wwwroot\osTicket\include\ost-config.php
+      - Right click the ost-config.php
+      - Properties -> Security tab -> Advanced
+      - Edit the permissions for "Everyone"
+      - Uncheck every box except for "Read" and "Read & execute"
+
+46. Now the has been fully completed. There are two different URLs used to access the osTicket ticketing system. One for Admins and Support personnel, another for customers who want to submit tickets.
+    - Admins: http://localhost/osTicket/scp/login.php
+    - End User (customer login): http://localhost/osTicket/ 
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
