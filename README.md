@@ -132,9 +132,24 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     - Fill out the rest of the information to create the admin user account. Make sure you remember the username and password
     - Before continuing, Heidi SQL must be installed in order to fill out the Database Settings information
 
-40. 
+40. Install HeidiSQL from the Installation Files list.
 
+41. In HeidiSQL create a new connection to the database. We will use the same user and password that was used when installing MySQL.
+    - Click "new"
+    - User: root
+    - Password: Password1
+    - Select "Open"
 
+42. Create an osTicket database in HeidiSQL
+    - Right click on 'Unnamed' on the upper left side and select "Create new" -> "Database"
+    - Name the Database "osTicket". Select "OK"
+
+43. Finish installation for osTicket
+    - Returun to the osTicket installation webpage
+    - MySQL Database: osTicket
+    - User: root
+    - Password: Password1
+    - Click "Install Now"
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
