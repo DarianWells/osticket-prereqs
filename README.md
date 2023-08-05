@@ -5,11 +5,6 @@
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -77,7 +72,7 @@ VC Redist
 
 MySQL 5.5.62
 
-1. Download and install MySQL 5.5.62. You can find an archived version linked here: https://downloads.mysql.com/archives/community/
+1. From the Installation Files, Download and install MySQL 5.5.62.
       - Typical Setup
       - Launch Configuration Wizard (after setup)
       - Standard Configuration
