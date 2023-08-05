@@ -30,7 +30,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <p> 
 
-Install and enable IIS.
+**This list is pretty long, so please follow every step in order*
+
+**Install and enable IIS.**
 
 1. On the windows search bar, type control panel and click on the control panel application
 
@@ -52,25 +54,25 @@ Install and enable IIS.
 
 The rest of the programs needed are sourced from this Installation File List: https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
-PHP Manager for IIS
+**PHP Manager for IIS**
 
 1. From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
 
-Rewrite Module
+**Rewrite Module**
 
 1. From the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
 
-PHP 7.3.8
+**PHP 7.3.8**
 
 1. Open the file explorer. In the search bar, type "C:" and press enter. On the C: drive, create a folder named "PHP".
 
 2. From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip). Extract all Contents into the PHP folder that was created on the C: drive.
 
-VC Redist
+**VC Redist**
 
 1. From the Installation Files, download and install VC_redist.x86.exe.
 
-MySQL 5.5.62
+**MySQL 5.5.62**
 
 1. From the Installation Files, Download and install MySQL 5.5.62.
       - Typical Setup
@@ -92,7 +94,7 @@ MySQL 5.5.62
 
 23. In IIS, click on the home icon in the top right corner. Reload the servers by clicking "stop" and then "start"
 
-osTicket v1.15.8
+**osTicket v1.15.8**
 
 1. Next, download osTicket from the installation files folder
 
@@ -146,7 +148,9 @@ osTicket v1.15.8
       - Fill out the rest of the information to create the admin user account. Make sure you remember the username and password
       - Before continuing, Heidi SQL must be installed in order to fill out the Database Settings information
 
-40. Install HeidiSQL from the Installation Files list.
+**Heidi SQL**
+
+1. Install HeidiSQL from the Installation Files list.
 
 41. In HeidiSQL create a new connection to the database. We will use the same user and password that was used when installing MySQL.
       - Click "new"
@@ -159,7 +163,7 @@ osTicket v1.15.8
       - Name the Database "osTicket". Select "OK"
 
 43. Finish installation for osTicket
-      - Returun to the osTicket installation webpage
+      - Return to the osTicket installation webpage
       - MySQL Database: osTicket
       - User: root
       - Password: Password1
@@ -168,7 +172,9 @@ osTicket v1.15.8
 44. osTicket has been successfully installed!
 
 For final cleanup,
+
 1. delete the "setup" folder located at C:\inetpub\wwwroot\osTicket\setup
+
 2. Reset the permissions for ost-config.php to read-only
       - go to C:\inetpub\wwwroot\osTicket\include\ost-config.php
       - Right click the ost-config.php
